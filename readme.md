@@ -1,4 +1,4 @@
 # diagnostic
 ***
-this code is ***first version*** nad it dont have any error
+this code is ***first version*** and it dont have any error
 ----
