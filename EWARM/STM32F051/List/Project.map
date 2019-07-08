@@ -1,0 +1,1501 @@
+###############################################################################
+#
+# IAR ELF Linker V8.22.1.15669/W32 for ARM                08/Jul/2019  15:18:19
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\Altium PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Exe\Project.out
+#    Map file     =  
+#        D:\Altium PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\List\Project.map
+#    Command line =  
+#        -f C:\Users\HADISA~1\AppData\Local\Temp\EW2FD1.tmp ("D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\adapter.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\adapterconfig.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\AdcSTM32F0xx.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\algorithms.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\autoadapter.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\CanDriverSTM32F0xx.o"
+#        "D:\Altium PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\canhistory.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\canmsgbuffer.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\CmdUartSTM32F0xx.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\datacollector.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\dispatcher.o" "D:\Altium PCB
+#        board\Project\Sajjad Uni\diagnostic\test\EWARM\STM32F051\Obj\ecumsg.o"
+#        "D:\Altium PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\EcuUartSTM32F0xx.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\functions.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\GpioDrvSTM32F0xx.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\isocan.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\isocan11.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\isocan29.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\isoserial.o" "D:\Altium PCB
+#        board\Project\Sajjad Uni\diagnostic\test\EWARM\STM32F051\Obj\j1939.o"
+#        "D:\Altium PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\j1939connmgr.o" "D:\Altium PCB
+#        board\Project\Sajjad Uni\diagnostic\test\EWARM\STM32F051\Obj\led.o"
+#        "D:\Altium PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\lstring.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\obdprofile.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\padapter.o" "D:\Altium PCB
+#        board\Project\Sajjad Uni\diagnostic\test\EWARM\STM32F051\Obj\pwm.o"
+#        "D:\Altium PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\startup_stm32f091.o"
+#        "D:\Altium PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_adc.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_can.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_cec.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_comp.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_crc.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_crs.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_dac.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_dbgmcu.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_dma.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_exti.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_flash.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_gpio.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_i2c.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_iwdg.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_misc.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_pwr.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_rcc.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_rtc.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_spi.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_syscfg.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_tim.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_usart.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\stm32f0xx_wwdg.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\system_stm32f0xx.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\SysutilitySTM32F0xx.o"
+#        "D:\Altium PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\timeoutmgr.o" "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\TimerSTM32F0xx.o" "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Obj\vpw.o" --redirect
+#        _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o "D:\Altium PCB
+#        board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\Exe\Project.out" --map "D:\Altium
+#        PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\STM32F051\List\Project.map" --config
+#        "D:\Altium PCB board\Project\Sajjad
+#        Uni\diagnostic\test\EWARM\stm32f051_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor                     = *
+__CPP_Exceptions              = Disabled
+__CPP_Language                = C++14
+__Heap_Handler                = DLMalloc
+__SystemLibrary               = DLib
+__dlib_dynamic_initialization = normal
+__dlib_version                = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x20000000 to 0x20001fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section                Kind        Address    Size  Object
+  -------                ----        -------    ----  ------
+"A0":                                           0xbc
+  .intvec                ro code  0x08000000    0xbc  startup_stm32f091.o [1]
+                                - 0x080000bc    0xbc
+
+"P1":                                         0x7b68
+  .text                  ro code  0x080000bc  0x16e0  dlmalloc.o [3]
+  .text                  ro code  0x0800179c     0xa  abort.o [3]
+  .text                  ro code  0x080017a6     0xa  xsprout.o [3]
+  .text                  ro code  0x080017b0    0x5c  ABImemcpy.o [5]
+  .text                  ro code  0x0800180c    0x2c  xgetmemchunk.o [3]
+  .text                  ro code  0x08001838    0x14  exit.o [6]
+  .text                  ro code  0x0800184c   0xf00  dispatcher.o [1]
+  .text                  ro code  0x0800274c   0x104  adapterconfig.o [1]
+  .text                  ro code  0x08002850    0x34  algorithms.o [1]
+  .text                  ro code  0x08002884     0xc  adapterconfig.o [1]
+  .text                  ro code  0x08002890   0x28c  lstring.o [1]
+  .text                  ro code  0x08002b1c   0x340  functions.o [1]
+  .text                  ro code  0x08002e5c    0xcc  timeoutmgr.o [1]
+  .text                  ro code  0x08002f28   0x3c0  obdprofile.o [1]
+  .text                  ro code  0x080032e8    0x76  SysutilitySTM32F0xx.o [1]
+  .text                  ro code  0x0800335e     0x6  padapter.o [1]
+  .text                  ro code  0x08003364    0x98  AdcSTM32F0xx.o [1]
+  .text                  ro code  0x080033fc    0x36  I32DivMod.o [5]
+  .text                  ro code  0x08003432     0x6  vpw.o [1]
+  .text                  ro code  0x08003438    0x40  sprintf.o [3]
+  .text                  ro code  0x08003478   0x154  padapter.o [1]
+  .text                  ro code  0x080035cc   0x134  datacollector.o [1]
+  .text                  ro code  0x08003700    0x34  cxxabi.o [4]
+  .text                  ro code  0x08003734   0x11a  adapter.o [1]
+  .text                  ro code  0x0800384e    0x10  strlen.o [5]
+  .text                  ro code  0x0800385e     0x2  autoadapter.o [1]
+  .text                  ro code  0x08003860    0x58  ABImemset.o [5]
+  .text                  ro code  0x080038b8    0x22  I64Shl.o [5]
+  .text                  ro code  0x080038da     0x2  j1939.o [1]
+  .text                  ro code  0x080038dc    0x1e  U64Shr.o [5]
+  .text                  ro code  0x080038fa     0xe  adapterconfig.o [1]
+  .text                  ro code  0x08003908   0x1a0  iar_Stoulx.o [3]
+  .text                  ro code  0x08003aa8     0x8  newaop_0.o [4]
+  .text                  ro code  0x08003ab0    0x74  strcpy.o [5]
+  .text                  ro code  0x08003b24     0x8  delaop_0.o [4]
+  .text                  ro code  0x08003b2c    0x98  strcmp.o [5]
+  .text                  ro code  0x08003bc4     0x6  functions.o [1]
+  .text                  ro code  0x08003bca    0x14  j1939.o [1]
+  .text                  ro code  0x08003bde    0x16  j1939.o [1]
+  .text                  ro code  0x08003bf4     0xc  timeoutmgr.o [1]
+  .text                  ro code  0x08003c00     0xc  timeoutmgr.o [1]
+  .text                  ro code  0x08003c0c   0x1a4  stm32f0xx_rcc.o [1]
+  .text                  ro code  0x08003db0    0x9c  stm32f0xx_gpio.o [1]
+  .text                  ro code  0x08003e4c    0xb8  stm32f0xx_adc.o [1]
+  .text                  ro code  0x08003f04     0x2  IntDivZer.o [5]
+  .text                  ro code  0x08003f06     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08003f08   0x58c  xprintfsmall.o [3]
+  .text                  ro code  0x08004494    0x18  padapter.o [1]
+  .text                  ro code  0x080044ac   0xa10  isoserial.o [1]
+  .text                  ro code  0x08004ebc    0x14  padapter.o [1]
+  .text                  ro code  0x08004ed0    0x18  padapter.o [1]
+  .text                  ro code  0x08004ee8   0x47c  j1939.o [1]
+  .text                  ro code  0x08005364    0x12  toupper.o [3]
+  .text                  ro code  0x08005376     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08005378    0xa8  cppinit.o [3]
+  .text                  ro code  0x08005420   0x1e4  CmdUartSTM32F0xx.o [1]
+  .text                  ro code  0x08005604    0x12  isalpha.o [3]
+  .text                  ro code  0x08005616    0x12  ispunct.o [3]
+  .text                  ro code  0x08005628    0x28  newop_0.o [4]
+  .text                  ro code  0x08005650   0x150  system_stm32f0xx.o [1]
+  .text                  ro code  0x080057a0   0x198  TimerSTM32F0xx.o [1]
+  .text                  ro code  0x08005938    0xc0  GpioDrvSTM32F0xx.o [1]
+  .text                  ro code  0x080059f8   0x170  EcuUartSTM32F0xx.o [1]
+  .text                  ro code  0x08005b68   0x2c0  CanDriverSTM32F0xx.o [1]
+  .text                  ro code  0x08005e28    0xd4  led.o [1]
+  .text                  ro code  0x08005efc    0x12  isspace.o [3]
+  .text                  ro code  0x08005f0e    0x12  tolower.o [3]
+  .text                  ro code  0x08005f20    0x18  memchr.o [5]
+  .text                  ro code  0x08005f38     0xe  delop_0.o [4]
+  .text                  ro code  0x08005f46     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08005f48    0xd8  xlocale_c.o [3]
+  .text                  ro code  0x08006020    0x16  strchr.o [5]
+  .text                  ro code  0x08006036     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08006038    0x48  xfail_s.o [3]
+  .text                  ro code  0x08006080   0x306  ecumsg.o [1]
+  .text                  ro code  0x08006386     0xc  vpw.o [1]
+  .text                  ro code  0x08006392    0x14  vpw.o [1]
+  .text                  ro code  0x080063a6     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x080063a8   0x594  isocan.o [1]
+  .text                  ro code  0x0800693c   0x12c  j1939connmgr.o [1]
+  .text                  ro code  0x08006a68     0xe  j1939.o [1]
+  .text                  ro code  0x08006a76     0xa  j1939.o [1]
+  .text                  ro code  0x08006a80    0x6c  canmsgbuffer.o [1]
+  .text                  ro code  0x08006aec   0x138  canhistory.o [1]
+  .text                  ro code  0x08006c24   0x104  stm32f0xx_usart.o [1]
+  .text                  ro code  0x08006d28     0x8  nomemory.o [4]
+  .text                  ro code  0x08006d30    0x78  stm32f0xx_tim.o [1]
+  .text                  ro code  0x08006da8   0x260  stm32f0xx_can.o [1]
+  .text                  ro code  0x08007008     0x8  heaptramp0.o [3]
+  .text                  ro code  0x08007010    0x24  ecumsg.o [1]
+  .text                  ro code  0x08007034    0x24  ecumsg.o [1]
+  .text                  ro code  0x08007058    0x24  ecumsg.o [1]
+  .text                  ro code  0x0800707c    0x24  ecumsg.o [1]
+  .text                  ro code  0x080070a0    0x26  ABImemmove.o [5]
+  .text                  ro code  0x080070c6     0x4  vpw.o [1]
+  .text                  ro code  0x080070ca     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x080070cc    0x20  isocan.o [1]
+  .text                  ro code  0x080070ec   0x204  isocan11.o [1]
+  .text                  ro code  0x080072f0    0x30  isocan29.o [1]
+  .rodata                const    0x08007320   0x196  dispatcher.o [1]
+  .text                  ro code  0x080074b6     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x080074b8   0x184  isocan29.o [1]
+  .text                  ro code  0x0800763c    0xb0  autoadapter.o [1]
+  Initializer bytes      const    0x080076ec    0x84  <for P2-1>
+  .rodata                const    0x08007770    0x50  isocan.o [1]
+  .rodata                const    0x080077c0    0x50  isocan11.o [1]
+  .rodata                const    0x08007810    0x50  isocan29.o [1]
+  .rodata                const    0x08007860    0x50  j1939.o [1]
+  .rodata                const    0x080078b0    0x48  isoserial.o [1]
+  .rodata                const    0x080078f8    0x44  autoadapter.o [1]
+  .rodata                const    0x0800793c    0x44  padapter.o [1]
+  .text                  ro code  0x08007980    0x3c  startup_stm32f091.o [1]
+  .text                  ro code  0x080079bc    0x3c  zero_init3.o [5]
+  .text                  ro code  0x080079f8    0x30  copy_init3.o [5]
+  .text                  ro code  0x08007a28    0x28  data_init.o [5]
+  .iar.init_table        const    0x08007a50    0x28  - Linker created -
+  .rodata                const    0x08007a78    0x20  ecumsg.o [1]
+  .rodata                const    0x08007a98    0x20  ecumsg.o [1]
+  .rodata                const    0x08007ab8    0x20  ecumsg.o [1]
+  .rodata                const    0x08007ad8    0x20  ecumsg.o [1]
+  .text                  ro code  0x08007af8    0x20  cmain_call_ctors.o [5]
+  .text                  ro code  0x08007b18    0x1e  cmain.o [5]
+  .text                  ro code  0x08007b36     0x4  low_level_init.o [3]
+  .text                  ro code  0x08007b3a     0x8  exit.o [3]
+  .text                  ro code  0x08007b42     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007b44     0xe  cexit.o [5]
+  .text                  ro code  0x08007b52    0x18  isocan.o [1]
+  .text                  ro code  0x08007b6a     0xe  CmdUartSTM32F0xx.o [1]
+  .text                  ro code  0x08007b78     0xe  dispatcher.o [1]
+  .text                  ro code  0x08007b86     0xc  cstartup_M.o [5]
+  .text                  ro code  0x08007b92     0xc  xencoding_8859_1.o [3]
+  .text                  ro code  0x08007b9e     0x8  ecumsg.o [1]
+  .text                  ro code  0x08007ba6     0x8  ecumsg.o [1]
+  .text                  ro code  0x08007bae     0x8  ecumsg.o [1]
+  .text                  ro code  0x08007bb6     0x8  ecumsg.o [1]
+  .text                  ro code  0x08007bbe     0x8  xpurevirtual.o [3]
+  .text                  ro code  0x08007bc6     0x4  autoadapter.o [1]
+  .text                  ro code  0x08007bca     0x4  ecumsg.o [1]
+  .text                  ro code  0x08007bce     0x4  isocan11.o [1]
+  .text                  ro code  0x08007bd2     0x4  isocan29.o [1]
+  .text                  ro code  0x08007bd6     0x4  isoserial.o [1]
+  .text                  ro code  0x08007bda     0x4  j1939.o [1]
+  .text                  ro code  0x08007bde     0x2  startup_stm32f091.o [1]
+  SHT$$PREINIT_ARRAY              0x08007be0     0x0  <Block>
+  SHT$$INIT_ARRAY                 0x08007be0     0x4  <Block>
+    .init_array          const    0x08007be0     0x4  TimerSTM32F0xx.o [1]
+  __iar_tls$$INIT_ARRAY           0x08007be4     0x0  <Block>
+  .rodata                const    0x08007be4     0x2  xlocale_c.o [3]
+  .text                  ro code  0x08007be6     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007be8     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007bea     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007bec     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007bee     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007bf0     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007bf2     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007bf4     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007bf6     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007bf8     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007bfa     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007bfc     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007bfe     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007c00     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007c02     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007c04     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007c06     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007c08     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007c0a     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007c0c     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007c0e     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007c10     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007c12     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007c14     0x2  startup_stm32f091.o [1]
+  .text                  ro code  0x08007c16     0x2  vpw.o [1]
+  .text                  ro code  0x08007c18     0x2  vpw.o [1]
+  .text                  ro code  0x08007c1a     0x2  vpw.o [1]
+  .text                  ro code  0x08007c1c     0x2  vpw.o [1]
+  .text                  ro code  0x08007c1e     0x2  vpw.o [1]
+  .rodata                const    0x08007c20     0x1  unwind_debug.o [6]
+  .text                  ro code  0x08007c24     0x0  cstart_call_dtors.o [5]
+  .rodata                const    0x08007c24     0x0  zero_init3.o [5]
+  .rodata                const    0x08007c24     0x0  copy_init3.o [5]
+                                - 0x08007c24  0x7b68
+
+"P2", part 1 of 3:                              0x84
+  P2-1                            0x20000000    0x84  <Init block>
+    .data                inited   0x20000000     0x4  AdcSTM32F0xx.o [1]
+    .data                inited   0x20000004    0x10  stm32f0xx_rcc.o [1]
+    .data                inited   0x20000014    0x14  system_stm32f0xx.o [1]
+    .data                inited   0x20000028    0x14  TimerSTM32F0xx.o [1]
+    .data                inited   0x2000003c    0x48  xlocale_c.o [3]
+                                - 0x20000084    0x84
+
+"P2", part 2 of 3:                             0x5e8
+  .bss                   zero     0x20000084   0x1d8  dlmalloc.o [3]
+  .bss                   zero     0x2000025c   0x100  padapter.o [1]
+  .bss                   zero     0x2000035c    0xd4  CanDriverSTM32F0xx.o [1]
+  .bss                   zero     0x20000430    0x1c  dispatcher.o [1]
+  .bss                   zero     0x20000450    0x98  adapterconfig.o [1]
+  .bss                   zero     0x200004e8    0x98  padapter.o [1]
+  .bss                   zero     0x20000580    0x58  CmdUartSTM32F0xx.o [1]
+  .bss                   zero     0x200005d8    0x18  dlmalloc.o [3]
+  .bss                   zero     0x200005f0    0x10  timeoutmgr.o [1]
+  .bss                   zero     0x20000600     0xc  ecumsg.o [1]
+  .bss                   zero     0x2000060c     0xc  TimerSTM32F0xx.o [1]
+  .bss                   zero     0x20000618     0x8  adapter.o [1]
+  .bss                   zero     0x20000620     0x8  CanDriverSTM32F0xx.o [1]
+  .bss                   zero     0x20000628     0x8  led.o [1]
+  .bss                   zero     0x20000630     0x8  led.o [1]
+  .bss                   zero     0x20000638     0x8  obdprofile.o [1]
+  .bss                   zero     0x20000640     0x8  TimerSTM32F0xx.o [1]
+  .bss                   zero     0x20000648     0x4  ecumsg.o [1]
+  .bss                   zero     0x2000064c     0x4  lstring.o [1]
+  .bss                   zero     0x20000650     0x4  padapter.o [1]
+  .bss                   zero     0x20000654     0x4  cppinit.o [3]
+  .bss                   zero     0x20000658     0x4  cppinit.o [3]
+  .bss                   zero     0x2000065c     0x4  new.o [4]
+  .bss                   zero     0x20000660     0x4  xfail_s.o [3]
+  .bss                   zero     0x20000664     0x4  xgetmemchunk.o [3]
+  .bss                   zero     0x20000668     0x2  EcuUartSTM32F0xx.o [1]
+                                - 0x2000066a   0x5e6
+
+"P2", part 3 of 3:                             0x7bc
+  .iar.dynexit                    0x2000066c   0x1bc  <Block>
+    .iar.dynexit         uninit   0x2000066c     0xc  cppinit.o [3]
+    .iar.dynexit         uninit   0x20000678   0x1b0  <Block tail>
+  CSTACK                          0x20000828   0x400  <Block>
+    CSTACK               uninit   0x20000828   0x400  <Block tail>
+  HEAP                            0x20000c28   0x200  <Block>
+    HEAP                 uninit   0x20000c28   0x200  <Block tail>
+                                - 0x20000e28   0x7bc
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x5e6:
+          0x20000084  0x5e6
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x84:
+          0x080076ec   0x84
+    1 destination range, total size 0x84:
+          0x20000000   0x84
+
+Extra (__iar_cstart_call_ctors)
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+D:\Altium PCB board\Project\Sajjad Uni\diagnostic\test\EWARM\STM32F051\Obj: [1]
+    AdcSTM32F0xx.o             152        4        4
+    CanDriverSTM32F0xx.o       704               220
+    CmdUartSTM32F0xx.o         498                88
+    EcuUartSTM32F0xx.o         368                 2
+    GpioDrvSTM32F0xx.o         192
+    SysutilitySTM32F0xx.o      118
+    TimerSTM32F0xx.o           408       24       40
+    adapter.o                  282                 8
+    adapterconfig.o            286               152
+    algorithms.o                52
+    autoadapter.o              182       68
+    canhistory.o               312
+    canmsgbuffer.o             108
+    datacollector.o            308
+    dispatcher.o             3 854      406       28
+    ecumsg.o                   954      128       16
+    functions.o                838
+    isocan.o                 1 484       80
+    isocan11.o                 520       80
+    isocan29.o                 440       80
+    isoserial.o              2 580       72
+    j1939.o                  1 220       80
+    j1939connmgr.o             300
+    led.o                      212                16
+    lstring.o                  652                 4
+    obdprofile.o               960                 8
+    padapter.o                 414       68      412
+    startup_stm32f091.o        314
+    stm32f0xx_adc.o            184
+    stm32f0xx_can.o            608
+    stm32f0xx_gpio.o           156
+    stm32f0xx_rcc.o            420       16       16
+    stm32f0xx_tim.o            120
+    stm32f0xx_usart.o          260
+    system_stm32f0xx.o         336       20       20
+    timeoutmgr.o               228                16
+    vpw.o                       52
+    ------------------------------------------------
+    Total:                  21 076    1 126    1 050
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    abort.o                     10
+    cppinit.o                  168                20
+    dlmalloc.o               5 856               496
+    exit.o                       8
+    heaptramp0.o                 8
+    iar_Stoulx.o               416
+    isalpha.o                   18
+    ispunct.o                   18
+    isspace.o                   18
+    low_level_init.o             4
+    sprintf.o                   64
+    tolower.o                   18
+    toupper.o                   18
+    xencoding_8859_1.o          12
+    xfail_s.o                   72                 4
+    xgetmemchunk.o              44                 4
+    xlocale_c.o                216       74       72
+    xprintfsmall.o           1 420
+    xpurevirtual.o               8
+    xsprout.o                   10
+    ------------------------------------------------
+    Total:                   8 406       74      596
+
+dlpp6M_tl_fc.a: [4]
+    cxxabi.o                    52
+    delaop_0.o                   8
+    delop_0.o                   14
+    new.o                                          4
+    newaop_0.o                   8
+    newop_0.o                   40
+    nomemory.o                   8
+    ------------------------------------------------
+    Total:                     130                 4
+
+rt6M_tl.a: [5]
+    ABImemcpy.o                 92
+    ABImemmove.o                38
+    ABImemset.o                 88
+    I32DivMod.o                 54
+    I64Shl.o                    34
+    IntDivZer.o                  2
+    U64Shr.o                    30
+    cexit.o                     14
+    cmain.o                     30
+    cmain_call_ctors.o          32
+    copy_init3.o                48
+    cstart_call_dtors.o
+    cstartup_M.o                12
+    data_init.o                 40
+    memchr.o                    24
+    strchr.o                    22
+    strcmp.o                   152
+    strcpy.o                   116
+    strlen.o                    16
+    zero_init3.o                60
+    ------------------------------------------------
+    Total:                     904
+
+shb_l.a: [6]
+    exit.o                      20
+    unwind_debug.o                        1
+    ------------------------------------------------
+    Total:                      20        1
+
+    Gaps                         3                 4
+    Linker created                       40    1 968
+----------------------------------------------------
+    Grand Total:            30 539    1 241    3 622
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.dynexit$$Base      0x2000066c          --   Gb  - Linker created -
+.iar.dynexit$$Limit     0x20000828          --   Gb  - Linker created -
+.iar.init_table$$Base   0x08007a50          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08007a78          --   Gb  - Linker created -
+?main                   0x08007b19         Code  Gb  cmain.o [5]
+ADC_ChannelConfig       0x08003e93    0xa  Code  Gb  stm32f0xx_adc.o [1]
+ADC_Cmd                 0x08003e81   0x12  Code  Gb  stm32f0xx_adc.o [1]
+ADC_GetCalibrationFactor
+                        0x08003e9d   0x28  Code  Gb  stm32f0xx_adc.o [1]
+ADC_GetConversionValue  0x08003ed9    0x6  Code  Gb  stm32f0xx_adc.o [1]
+ADC_GetFlagStatus       0x08003edf   0x1a  Code  Gb  stm32f0xx_adc.o [1]
+ADC_Init                0x08003e4d   0x24  Code  Gb  stm32f0xx_adc.o [1]
+ADC_StartOfConversion   0x08003ecf    0xa  Code  Gb  stm32f0xx_adc.o [1]
+ADC_StopOfConversion    0x08003ec5    0xa  Code  Gb  stm32f0xx_adc.o [1]
+ADC_StructInit          0x08003e71   0x10  Code  Gb  stm32f0xx_adc.o [1]
+AHBPrescTable           0x20000014   0x10  Data  Gb  system_stm32f0xx.o [1]
+APBAHBPrescTable        0x20000004   0x10  Data  Lc  stm32f0xx_rcc.o [1]
+AdapterConfig::AdapterConfig()
+                        0x0800274d   0x28  Code  Gb  adapterconfig.o [1]
+AdapterConfig::clear()  0x0800281d   0x34  Code  Gb  adapterconfig.o [1]
+AdapterConfig::getBoolProperty(int) const
+                        0x080027a5   0x18  Code  Gb  adapterconfig.o [1]
+AdapterConfig::getBytesProperty(int) const
+                        0x080027e7    0xa  Code  Gb  adapterconfig.o [1]
+AdapterConfig::getIntProperty(int) const
+                        0x080027c7    0xa  Code  Gb  adapterconfig.o [1]
+AdapterConfig::instance()
+                        0x080027f1   0x1c  Code  Gb  adapterconfig.o [1]
+AdapterConfig::instance()::instance
+                        0x20000458   0x90  Data  Lc  adapterconfig.o [1]
+AdapterConfig::instance()::static guard for instance
+                        0x20000450    0x1  Data  Lc  adapterconfig.o [1]
+AdapterConfig::setBoolProperty(int, bool)
+                        0x08002775   0x30  Code  Gb  adapterconfig.o [1]
+AdapterConfig::setBytesProperty(int, ByteArray const *)
+                        0x080027d1   0x16  Code  Gb  adapterconfig.o [1]
+AdapterConfig::setIntProperty(int, unsigned int)
+                        0x080027bd    0xa  Code  Gb  adapterconfig.o [1]
+AdcDriver::configure()  0x08003365   0x52  Code  Gb  AdcSTM32F0xx.o [1]
+AdcDriver::read()       0x080033b7   0x3e  Code  Gb  AdcSTM32F0xx.o [1]
+AdptCheckHeartBeat()    0x080026b1    0xc  Code  Gb  dispatcher.o [1]
+AdptDispatcherInit()    0x0800267d   0x34  Code  Gb  dispatcher.o [1]
+AdptLED::AdptLED()      0x08005e75   0x1a  Code  Gb  led.o [1]
+AdptLED::TimerCallback()
+                        0x08005ebd   0x32  Code  Gb  led.o [1]
+AdptLED::blinkRx()      0x08005ea9    0xc  Code  Gb  led.o [1]
+AdptLED::blinkTx()      0x08005e9b    0xe  Code  Gb  led.o [1]
+AdptLED::configure()    0x08005e29   0x34  Code  Gb  led.o [1]
+AdptLED::instance()     0x08005e5d   0x18  Code  Gb  led.o [1]
+AdptLED::instance()::instance
+                        0x20000634    0x4  Data  Lc  led.o [1]
+AdptLED::instance()::static guard for instance
+                        0x20000630    0x1  Data  Lc  led.o [1]
+AdptLED::rxCount_       0x2000062c    0x4  Data  Gb  led.o [1]
+AdptLED::startTimer()   0x08005e8f    0xc  Code  Gb  led.o [1]
+AdptLED::txCount_       0x20000628    0x4  Data  Gb  led.o [1]
+AdptOnCmd(DataCollector const *)
+                        0x080025ad   0xce  Code  Gb  dispatcher.o [1]
+AdptOnCmd(DataCollector const *)::previousCmd
+                        0x20000434   0x18  Data  Lc  dispatcher.o [1]
+AdptOnCmd(DataCollector const *)::static guard for previousCmd
+                        0x20000430    0x1  Data  Lc  dispatcher.o [1]
+AdptPowerModeConfigure()
+                        0x0800335d    0x2  Code  Gb  SysutilitySTM32F0xx.o [1]
+AdptReadSerialNum()     0x08003341   0x18  Code  Gb  SysutilitySTM32F0xx.o [1]
+AdptSendReply(char const *)
+                        0x080026bd   0x18  Code  Gb  dispatcher.o [1]
+AdptSendReply(util::string &)
+                        0x080026f7   0x26  Code  Gb  dispatcher.o [1]
+AdptSendReply(util::string const &)
+                        0x080026d5   0x14  Code  Gb  dispatcher.o [1]
+AdptSendString(util::string const &)
+                        0x080037a3    0xe  Code  Gb  adapter.o [1]
+AutoAdapter::AutoAdapter()
+                        0x08004495   0x18  Code  Gb  padapter.o [1]
+AutoAdapter::doConnect(int, bool)
+                        0x08007671   0x20  Code  Gb  autoadapter.o [1]
+AutoAdapter::getDescription()
+                        0x0800763d    0xc  Code  Gb  autoadapter.o [1]
+AutoAdapter::getDescriptionNum()
+                        0x08007649   0x1a  Code  Gb  autoadapter.o [1]
+AutoAdapter::getProtocol() const
+                        0x08007bc7    0x4  Code  Gb  autoadapter.o [1]
+AutoAdapter::onConnectEcu(bool)
+                        0x08007691   0x52  Code  Gb  autoadapter.o [1]
+AutoAdapter::onRequest(unsigned char const *, unsigned int, unsigned int)
+                        0x0800766d    0x4  Code  Gb  autoadapter.o [1]
+AutoAdapter::wiringCheck()
+                        0x0800385f    0x2  Code  Gb  autoadapter.o [1]
+AutoReceiveParse(util::string const &, unsigned int &, unsigned int &)
+                        0x08002da1   0x94  Code  Gb  functions.o [1]
+BusInit                 0x080049bc    0xc  Data  Lc  isoserial.o [1]
+ByteArray::ByteArray()  0x08002885    0xc  Code  Gb  adapterconfig.o [1]
+ByteArray::asCanId() const
+                        0x080072f1   0x30  Code  Gb  isocan29.o [1]
+ByteArray::clear()      0x080038fb    0xe  Code  Gb  adapterconfig.o [1]
+CAN_DeInit              0x08006da9   0x18  Code  Gb  stm32f0xx_can.o [1]
+CAN_ITConfig            0x08006ff7   0x12  Code  Gb  stm32f0xx_can.o [1]
+CAN_Init                0x08006dc1   0xf4  Code  Gb  stm32f0xx_can.o [1]
+CAN_Receive             0x08006f7d   0x7a  Code  Gb  stm32f0xx_can.o [1]
+CAN_StructInit          0x08006eb5   0x20  Code  Gb  stm32f0xx_can.o [1]
+CAN_Transmit            0x08006ed5   0xa4  Code  Gb  stm32f0xx_can.o [1]
+CEC_CAN_IRQHandler      0x08005b69   0x3c  Code  Gb  CanDriverSTM32F0xx.o [1]
+CSTACK$$Base            0x20000828          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000c28          --   Gb  - Linker created -
+CacheMore               0x08005fb7   0x28  Code  Lc  xlocale_c.o [3]
+CanDriver::configure()  0x08005bc7   0x82  Code  Gb  CanDriverSTM32F0xx.o [1]
+CanDriver::getBit()     0x08005e1d    0xc  Code  Gb  CanDriverSTM32F0xx.o [1]
+CanDriver::instance()   0x08005c49   0x22  Code  Gb  CanDriverSTM32F0xx.o [1]
+CanDriver::instance()::instance
+                        0x20000624    0x4  Data  Lc  CanDriverSTM32F0xx.o [1]
+CanDriver::instance()::static guard for instance
+                        0x20000620    0x1  Data  Lc  CanDriverSTM32F0xx.o [1]
+CanDriver::isReady() const
+                        0x08005db5    0xe  Code  Gb  CanDriverSTM32F0xx.o [1]
+CanDriver::read(CanMsgBuffer *)
+                        0x08005d37   0x7e  Code  Gb  CanDriverSTM32F0xx.o [1]
+CanDriver::send(CanMsgBuffer const *)
+                        0x08005c6b   0x66  Code  Gb  CanDriverSTM32F0xx.o [1]
+CanDriver::setBit(unsigned int)
+                        0x08005e0f    0xe  Code  Gb  CanDriverSTM32F0xx.o [1]
+CanDriver::setBitBang(bool)
+                        0x08005ded   0x22  Code  Gb  CanDriverSTM32F0xx.o [1]
+CanDriver::setFilterAndMask(unsigned int, unsigned int, bool)
+                        0x08005cd1    0x2  Code  Gb  CanDriverSTM32F0xx.o [1]
+CanDriver::setFilterAndMask(unsigned int, unsigned int, bool, int)
+                        0x08005d27   0x10  Code  Gb  CanDriverSTM32F0xx.o [1]
+CanHistory::CanHistory()
+                        0x080070cd   0x20  Code  Gb  isocan.o [1]
+CanHistory::add2Buffer(CanMsgBuffer const *, bool, unsigned char)
+                        0x08006bdd   0x3e  Code  Gb  canhistory.o [1]
+CanHistory::dumpCurrentBuffer()
+                        0x08006aed   0xf0  Code  Gb  canhistory.o [1]
+CanIDToString(unsigned int, util::string &, bool)
+                        0x08002beb   0x20  Code  Gb  functions.o [1]
+CanIDToString(unsigned int, util::string &, bool, bool)
+                        0x08002b1d   0xce  Code  Gb  functions.o [1]
+CanMsgBuffer::CanMsgBuffer()
+                        0x08006a81   0x1a  Code  Gb  canmsgbuffer.o [1]
+CanMsgBuffer::CanMsgBuffer(unsigned int, bool, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char)
+                        0x08006a9b   0x52  Code  Gb  canmsgbuffer.o [1]
+CmdUart::CmdUart()      0x08005421   0x1e  Code  Gb  CmdUartSTM32F0xx.o [1]
+CmdUart::configure()    0x0800545f   0x48  Code  Gb  CmdUartSTM32F0xx.o [1]
+CmdUart::init(unsigned int)
+                        0x080054a7   0x52  Code  Gb  CmdUartSTM32F0xx.o [1]
+CmdUart::instance()     0x0800543f   0x20  Code  Gb  CmdUartSTM32F0xx.o [1]
+CmdUart::instance()::instance
+                        0x20000584   0x54  Data  Lc  CmdUartSTM32F0xx.o [1]
+CmdUart::instance()::static guard for instance
+                        0x20000580    0x1  Data  Lc  CmdUartSTM32F0xx.o [1]
+CmdUart::irqHandler()   0x08005547   0x2e  Code  Gb  CmdUartSTM32F0xx.o [1]
+CmdUart::rxIrqHandler()
+                        0x0800552f   0x18  Code  Gb  CmdUartSTM32F0xx.o [1]
+CmdUart::send(unsigned char)
+                        0x08005575    0xe  Code  Gb  CmdUartSTM32F0xx.o [1]
+CmdUart::send(util::string const &)
+                        0x08005583   0x48  Code  Gb  CmdUartSTM32F0xx.o [1]
+CmdUart::txIrqHandler()
+                        0x080054f9   0x36  Code  Gb  CmdUartSTM32F0xx.o [1]
+CmdUart::~CmdUart()     0x08007b6b    0xe  Code  Gb  CmdUartSTM32F0xx.o [1]
+Copyright               0x08001a5c   0x24  Data  Lc  dispatcher.o [1]
+Copyright2              0x08001a80   0x4c  Data  Lc  dispatcher.o [1]
+Copyright3              0x08001acc   0x4c  Data  Lc  dispatcher.o [1]
+DataCollector::DataCollector(unsigned int, unsigned int)
+                        0x080035cd   0x28  Code  Gb  datacollector.o [1]
+DataCollector::getNumOfResponses() const
+                        0x080036d3   0x2e  Code  Gb  datacollector.o [1]
+DataCollector::isHugeBuffer() const
+                        0x080036c7    0xc  Code  Gb  datacollector.o [1]
+DataCollector::operator =(const DataCollector&)
+                        0x080035f5   0x36  Code  Gb  datacollector.o [1]
+DataCollector::putChar(char)
+                        0x0800362b   0x86  Code  Gb  datacollector.o [1]
+DataCollector::reset()  0x080036b1   0x16  Code  Gb  datacollector.o [1]
+DataCollector::~DataCollector()
+                        0x08007b79    0xe  Code  Gb  dispatcher.o [1]
+Delay1ms(unsigned int)  0x08002c0b   0x2c  Code  Gb  functions.o [1]
+Delay1us(unsigned int)  0x08002c37   0x2a  Code  Gb  functions.o [1]
+DtorRecArray            0x2000066c    0xc  Data  Lc  cppinit.o [3]
+EchoDot                 0x08004848    0x2  Data  Lc  isoserial.o [1]
+EchoOk                  0x08004eb8    0x4  Data  Lc  isoserial.o [1]
+EcuUart::clear()        0x08005b27   0x1c  Code  Gb  EcuUartSTM32F0xx.o [1]
+EcuUart::configure()    0x08005a09   0x4c  Code  Gb  EcuUartSTM32F0xx.o [1]
+EcuUart::get()          0x08005ac5    0xc  Code  Gb  EcuUartSTM32F0xx.o [1]
+EcuUart::getBit()       0x08005b19    0xe  Code  Gb  EcuUartSTM32F0xx.o [1]
+EcuUart::getEcho(unsigned char)
+                        0x08005ad1   0x44  Code  Gb  EcuUartSTM32F0xx.o [1]
+EcuUart::init(unsigned int)
+                        0x08005a55   0x54  Code  Gb  EcuUartSTM32F0xx.o [1]
+EcuUart::instance()     0x080059f9   0x10  Code  Gb  EcuUartSTM32F0xx.o [1]
+EcuUart::instance()::instance
+                        0x20000669    0x1  Data  Lc  EcuUartSTM32F0xx.o [1]
+EcuUart::instance()::static guard for instance
+                        0x20000668    0x1  Data  Lc  EcuUartSTM32F0xx.o [1]
+EcuUart::ready()        0x08005abb    0xa  Code  Gb  EcuUartSTM32F0xx.o [1]
+EcuUart::send(unsigned char)
+                        0x08005aa9   0x12  Code  Gb  EcuUartSTM32F0xx.o [1]
+EcuUart::setBit(unsigned int)
+                        0x08005b17    0x2  Code  Gb  EcuUartSTM32F0xx.o [1]
+EcuUart::setBitBang(bool)
+                        0x08005b15    0x2  Code  Gb  EcuUartSTM32F0xx.o [1]
+Ecumsg::Ecumsg(unsigned char)
+                        0x080060fd   0x10  Code  Gb  ecumsg.o [1]
+Ecumsg::Ecumsg(unsigned char) [subobject]
+                        0x08006081    0x8  Code  Gb  ecumsg.o [1]
+Ecumsg::__addHeader(unsigned int)
+                        0x080061ff   0x24  Code  Gb  ecumsg.o [1]
+Ecumsg::__isoAddChecksum()
+                        0x08006235   0x1e  Code  Gb  ecumsg.o [1]
+Ecumsg::__j1850AddChecksum()
+                        0x08006253   0x50  Code  Gb  ecumsg.o [1]
+Ecumsg::__removeHeader(unsigned int)
+                        0x08006223   0x12  Code  Gb  ecumsg.o [1]
+Ecumsg::__setHeader(unsigned char const *)
+                        0x080061ed   0x12  Code  Gb  ecumsg.o [1]
+Ecumsg::__setHeader(unsigned char, unsigned char, unsigned char)
+                        0x080061e1    0xc  Code  Gb  ecumsg.o [1]
+Ecumsg::headerLength() const
+                        0x08007bcb    0x4  Code  Gb  ecumsg.o [1]
+Ecumsg::instance(unsigned char)
+                        0x08006089   0x74  Code  Gb  ecumsg.o [1]
+Ecumsg::refData_        0x20000648    0x4  Data  Gb  ecumsg.o [1]
+Ecumsg::sendReply() const
+                        0x0800610d   0x86  Code  Gb  ecumsg.o [1]
+Ecumsg::sendReply() const::static guard for str
+                        0x20000600    0x1  Data  Lc  ecumsg.o [1]
+Ecumsg::sendReply() const::str
+                        0x20000604    0x8  Data  Lc  ecumsg.o [1]
+Ecumsg::setData(unsigned char const *, unsigned int)
+                        0x08006193   0x36  Code  Gb  ecumsg.o [1]
+EcumsgISO14230::EcumsgISO14230()
+                        0x08007035   0x24  Code  Gb  ecumsg.o [1]
+EcumsgISO14230::addChecksum()
+                        0x08006315    0x8  Code  Gb  ecumsg.o [1]
+EcumsgISO14230::addHeaderAndChecksum()
+                        0x080062bd   0x58  Code  Gb  ecumsg.o [1]
+EcumsgISO14230::headerLength() const
+                        0x08006321   0x18  Code  Gb  ecumsg.o [1]
+EcumsgISO14230::stripHeaderAndChecksum()
+                        0x08006339   0x10  Code  Gb  ecumsg.o [1]
+EcumsgISO14230::~EcumsgISO14230() [deleting]
+                        0x08007ba7    0x8  Code  Gb  ecumsg.o [1]
+EcumsgISO9141::EcumsgISO9141()
+                        0x08007011   0x24  Code  Gb  ecumsg.o [1]
+EcumsgISO9141::addChecksum()
+                        0x080062b5    0x8  Code  Gb  ecumsg.o [1]
+EcumsgISO9141::addHeaderAndChecksum()
+                        0x080062a3   0x12  Code  Gb  ecumsg.o [1]
+EcumsgISO9141::stripHeaderAndChecksum()
+                        0x0800631d    0x4  Code  Gb  ecumsg.o [1]
+EcumsgISO9141::~EcumsgISO9141() [deleting]
+                        0x08007b9f    0x8  Code  Gb  ecumsg.o [1]
+EcumsgPWM::EcumsgPWM()  0x0800707d   0x24  Code  Gb  ecumsg.o [1]
+EcumsgPWM::addChecksum()
+                        0x0800637b    0x8  Code  Gb  ecumsg.o [1]
+EcumsgPWM::addHeaderAndChecksum()
+                        0x08006369    0x2  Code  Gb  ecumsg.o [1]
+EcumsgPWM::stripHeaderAndChecksum()
+                        0x08006383    0x4  Code  Gb  ecumsg.o [1]
+EcumsgPWM::~EcumsgPWM() [deleting]
+                        0x08007bb7    0x8  Code  Gb  ecumsg.o [1]
+EcumsgVPW::EcumsgVPW()  0x08007059   0x24  Code  Gb  ecumsg.o [1]
+EcumsgVPW::addChecksum()
+                        0x0800634d    0x8  Code  Gb  ecumsg.o [1]
+EcumsgVPW::addHeaderAndChecksum()
+                        0x08006349    0x4  Code  Gb  ecumsg.o [1]
+EcumsgVPW::stripHeaderAndChecksum()
+                        0x08006355    0x2  Code  Gb  ecumsg.o [1]
+EcumsgVPW::~EcumsgVPW() [deleting]
+                        0x08007baf    0x8  Code  Gb  ecumsg.o [1]
+Err0Message             0x080032d8   0x10  Data  Lc  obdprofile.o [1]
+Err1Message             0x08003278    0xc  Data  Lc  obdprofile.o [1]
+Err2Message             0x08003284    0x8  Data  Lc  obdprofile.o [1]
+Err3Message             0x0800328c    0x8  Data  Lc  obdprofile.o [1]
+Err4Message             0x08003294   0x14  Data  Lc  obdprofile.o [1]
+Err5Message             0x080032a8    0xc  Data  Lc  obdprofile.o [1]
+Err6Message             0x080032b4    0xc  Data  Lc  obdprofile.o [1]
+Err7Message             0x080032c0    0xc  Data  Lc  obdprofile.o [1]
+Err8Message             0x080032cc    0xc  Data  Lc  obdprofile.o [1]
+ErrMessage              0x0800273c    0x2  Data  Lc  dispatcher.o [1]
+ErrMessage              0x08003274    0x2  Data  Lc  obdprofile.o [1]
+FifoReadPos             0x20000360    0x4  Data  Lc  CanDriverSTM32F0xx.o [1]
+FifoWritePos            0x20000364    0x4  Data  Lc  CanDriverSTM32F0xx.o [1]
+GPIOConfigure(unsigned int)
+                        0x08005939   0x10  Code  Gb  GpioDrvSTM32F0xx.o [1]
+GPIOPinConfig(unsigned int, unsigned int, unsigned int)
+                        0x080059c9   0x1a  Code  Gb  GpioDrvSTM32F0xx.o [1]
+GPIOPinRead(unsigned int, unsigned int)
+                        0x080059b1   0x16  Code  Gb  GpioDrvSTM32F0xx.o [1]
+GPIOPinWrite(unsigned int, unsigned int, unsigned int)
+                        0x08005999   0x16  Code  Gb  GpioDrvSTM32F0xx.o [1]
+GPIOPtr                 0x080059e4   0x14  Data  Lc  GpioDrvSTM32F0xx.o [1]
+GPIOSetDir(unsigned int, unsigned int, unsigned int)
+                        0x0800594d   0x4c  Code  Gb  GpioDrvSTM32F0xx.o [1]
+GPIO_Init               0x08003db1   0x6a  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_PinAFConfig        0x08003e2b   0x22  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_ReadInputDataBit   0x08003e1b    0x8  Code  Gb  stm32f0xx_gpio.o [1]
+GPIOx                   0x20000000    0x4  Data  Gb  AdcSTM32F0xx.o [1]
+HEAP$$Base              0x20000c28          --   Gb  - Linker created -
+HEAP$$Limit             0x20000e28          --   Gb  - Linker created -
+IntAggregate::IntAggregate(unsigned char, unsigned char, unsigned char, unsigned char)
+                        0x08006a69    0xe  Code  Gb  j1939.o [1]
+Interface               0x08002740    0xc  Data  Lc  dispatcher.o [1]
+Iso14230Seq             0x080049c8    0x1  Data  Lc  isoserial.o [1]
+Iso14230Wakeup          0x08004a7c    0x1  Data  Lc  isoserial.o [1]
+Iso9141Wakeup           0x08004a78    0x2  Data  Lc  isoserial.o [1]
+IsoCan11Adapter::IsoCan11Adapter()
+                        0x08004ebd   0x14  Code  Gb  padapter.o [1]
+IsoCan11Adapter::getDescription()
+                        0x080070ed   0x30  Code  Gb  isocan11.o [1]
+IsoCan11Adapter::getDescriptionNum()
+                        0x0800711d   0x2e  Code  Gb  isocan11.o [1]
+IsoCan11Adapter::getID() const
+                        0x0800714b   0x1e  Code  Gb  isocan11.o [1]
+IsoCan11Adapter::getProtocol() const
+                        0x08007bcf    0x4  Code  Gb  isocan11.o [1]
+IsoCan11Adapter::open()
+                        0x08007285   0x1c  Code  Gb  isocan11.o [1]
+IsoCan11Adapter::processFlowFrame(CanMsgBuffer const *)
+                        0x080071b3   0xae  Code  Gb  isocan11.o [1]
+IsoCan11Adapter::setFilterAndMask()
+                        0x08007169   0x4a  Code  Gb  isocan11.o [1]
+IsoCan29Adapter::IsoCan29Adapter()
+                        0x08004ed1   0x18  Code  Gb  padapter.o [1]
+IsoCan29Adapter::getDescription()
+                        0x080074b9   0x1c  Code  Gb  isocan29.o [1]
+IsoCan29Adapter::getDescriptionNum()
+                        0x080074d5   0x1a  Code  Gb  isocan29.o [1]
+IsoCan29Adapter::getID() const
+                        0x080074ef   0x38  Code  Gb  isocan29.o [1]
+IsoCan29Adapter::getProtocol() const
+                        0x08007bd3    0x4  Code  Gb  isocan29.o [1]
+IsoCan29Adapter::open()
+                        0x080075e5   0x1c  Code  Gb  isocan29.o [1]
+IsoCan29Adapter::processFlowFrame(CanMsgBuffer const *)
+                        0x0800756d   0x50  Code  Gb  isocan29.o [1]
+IsoCan29Adapter::setFilterAndMask()
+                        0x08007527   0x46  Code  Gb  isocan29.o [1]
+IsoCanAdapter::IsoCanAdapter()
+                        0x080063b1   0x32  Code  Gb  isocan.o [1]
+IsoCanAdapter::IsoCanAdapter() [subobject]
+                        0x080063a9    0x8  Code  Gb  isocan.o [1]
+IsoCanAdapter::checkResponsePending(CanMsgBuffer const *)
+                        0x08006685   0x1c  Code  Gb  isocan.o [1]
+IsoCanAdapter::dumpBuffer()
+                        0x08006883    0xa  Code  Gb  isocan.o [1]
+IsoCanAdapter::formatReplyWithHeader(CanMsgBuffer const *, util::string &, int)
+                        0x080064e3   0x4e  Code  Gb  isocan.o [1]
+IsoCanAdapter::getP2MaxTimeout() const
+                        0x080067b5    0xc  Code  Gb  isocan.o [1]
+IsoCanAdapter::onConnectEcu(bool)
+                        0x080067e9   0x9a  Code  Gb  isocan.o [1]
+IsoCanAdapter::onRequest(unsigned char const *, unsigned int, unsigned int)
+                        0x080067c1   0x28  Code  Gb  isocan.o [1]
+IsoCanAdapter::processFirstFrame(CanMsgBuffer const *)
+                        0x08006585   0x7a  Code  Gb  isocan.o [1]
+IsoCanAdapter::processFrame(CanMsgBuffer const *)
+                        0x08006531   0x52  Code  Gb  isocan.o [1]
+IsoCanAdapter::processNextFrame(CanMsgBuffer const *, int)
+                        0x0800660d   0x70  Code  Gb  isocan.o [1]
+IsoCanAdapter::receiveFromEcu(bool, unsigned int)
+                        0x080066a1  0x10c  Code  Gb  isocan.o [1]
+IsoCanAdapter::sendFrameToEcu(unsigned char const *, unsigned char, unsigned char)
+                        0x08006473   0x20  Code  Gb  isocan.o [1]
+IsoCanAdapter::sendFrameToEcu(unsigned char const *, unsigned char, unsigned char, unsigned int)
+                        0x08006493   0x50  Code  Gb  isocan.o [1]
+IsoCanAdapter::sendToEcu(unsigned char const *, int)
+                        0x080063e3   0x90  Code  Gb  isocan.o [1]
+IsoCanAdapter::wiringCheck()
+                        0x08006891   0x60  Code  Gb  isocan.o [1]
+IsoSerialAdapter::IsoSerialAdapter()
+                        0x080044ed   0x2c  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::checkResponsePending(Ecumsg const *)
+                        0x08004a7f   0x2a  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::close()
+                        0x0800453f    0xa  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::closeProtocol()
+                        0x08004539    0x6  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::configureProperties()
+                        0x08004d9b   0x20  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::ecuFastInit()
+                        0x0800484b   0x56  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::ecuSlowInit()
+                        0x0800463b   0x5a  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::get2MaxLen() const
+                        0x08004d85   0x16  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::getDescription()
+                        0x08004bcd   0x44  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::getDescriptionNum()
+                        0x08004c35   0x48  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::getP2MaxTimeout() const
+                        0x08004d79    0xc  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::getProtocol() const
+                        0x08007bd7    0x4  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::getWakeupTime() const
+                        0x08004dbb   0x10  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::isKeepAlive()
+                        0x080044c9   0x24  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::kwDisplay()
+                        0x08004c11   0x24  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::onConnectEcu(bool)
+                        0x08004ca1   0x7c  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::onConnectEcuFast(int)
+                        0x080048a1  0x11a  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::onConnectEcuSlow(int)
+                        0x08004695  0x1b0  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::onRequest(unsigned char const *, unsigned int, unsigned int)
+                        0x08004aa9  0x124  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::open()
+                        0x08004519   0x16  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::receiveFromEcu(Ecumsg *, int, int, int)
+                        0x080045b5   0x86  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::sendHeartBeat()
+                        0x080049cd   0xac  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::sendToEcu(Ecumsg const *, int)
+                        0x0800454d   0x68  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::setKeepAlive()
+                        0x080044ad   0x1c  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::setProtocol(int)
+                        0x08004549    0x4  Code  Gb  isoserial.o [1]
+IsoSerialAdapter::wiringCheck()
+                        0x08004d1d   0x5c  Code  Gb  isoserial.o [1]
+J1939Adapter::J1939Adapter()
+                        0x08004ee9   0x26  Code  Gb  j1939.o [1]
+J1939Adapter::formatReplyWithHeader(CanMsgBuffer const *, util::string &)
+                        0x08005239   0xd0  Code  Gb  j1939.o [1]
+J1939Adapter::getDescription()
+                        0x08004f11    0xc  Code  Gb  j1939.o [1]
+J1939Adapter::getDescriptionNum()
+                        0x08004f35   0x1a  Code  Gb  j1939.o [1]
+J1939Adapter::getID() const
+                        0x08004f4f   0x72  Code  Gb  j1939.o [1]
+J1939Adapter::getProtocol() const
+                        0x08007bdb    0x4  Code  Gb  j1939.o [1]
+J1939Adapter::getTimeout() const
+                        0x08005309   0x30  Code  Gb  j1939.o [1]
+J1939Adapter::monitor()
+                        0x08005341    0x2  Code  Gb  j1939.o [1]
+J1939Adapter::monitor(unsigned char const *, unsigned int, unsigned int)
+                        0x08005343   0x10  Code  Gb  j1939.o [1]
+J1939Adapter::onConnectEcu(bool)
+                        0x0800502f   0x14  Code  Gb  j1939.o [1]
+J1939Adapter::onRequest(unsigned char const *, unsigned int, unsigned int)
+                        0x08004fcd   0x62  Code  Gb  j1939.o [1]
+J1939Adapter::open()    0x08004fc1    0xc  Code  Gb  j1939.o [1]
+J1939Adapter::processDtFrame(CanMsgBuffer const *)
+                        0x080051e1   0x58  Code  Gb  j1939.o [1]
+J1939Adapter::processFlowFrame(CanMsgBuffer const *)
+                        0x080038db    0x2  Code  Gb  j1939.o [1]
+J1939Adapter::processFrame(CanMsgBuffer const *)
+                        0x0800518d   0x3c  Code  Gb  j1939.o [1]
+J1939Adapter::processRtsFrame(CanMsgBuffer const *)
+                        0x080051c9   0x18  Code  Gb  j1939.o [1]
+J1939Adapter::receiveFromEcu()
+                        0x08005057   0xbc  Code  Gb  j1939.o [1]
+J1939Adapter::sendToEcu(unsigned char const *, int)
+                        0x08005043   0x14  Code  Gb  j1939.o [1]
+J1939Adapter::setFilterAndMaskForPGN(unsigned int)
+                        0x08005113   0x5e  Code  Gb  j1939.o [1]
+J1939ConnectionMgr::J1939ConnectionMgr(J1939Adapter *)
+                        0x0800693d   0x16  Code  Gb  j1939connmgr.o [1]
+J1939ConnectionMgr::data(CanMsgBuffer const *)
+                        0x080069b3   0x26  Code  Gb  j1939connmgr.o [1]
+J1939ConnectionMgr::isValidAck(CanMsgBuffer const *) const
+                        0x08006a25   0x32  Code  Gb  j1939connmgr.o [1]
+J1939ConnectionMgr::rts(CanMsgBuffer const *)
+                        0x08006955   0x5e  Code  Gb  j1939connmgr.o [1]
+J1939ConnectionMgr::sendAck()
+                        0x080069d9   0x46  Code  Gb  j1939connmgr.o [1]
+KWordsToString(uint8_t const *, util::string &)::pattern
+                        0x08002e50    0xc  Data  Lc  functions.o [1]
+KWordsToString(unsigned char const *, util::string &)
+                        0x08002c6d   0x52  Code  Gb  functions.o [1]
+LoadInt                 0x080041b9   0x5a  Code  Lc  xprintfsmall.o [3]
+LongTimer::LongTimer()  0x0800587d    0xe  Code  Gb  TimerSTM32F0xx.o [1]
+LongTimer::instance()   0x0800588b   0x18  Code  Gb  TimerSTM32F0xx.o [1]
+LongTimer::instance()::static guard for timer
+                        0x20000640    0x1  Data  Lc  TimerSTM32F0xx.o [1]
+LongTimer::instance()::timer
+                        0x20000644    0x4  Data  Lc  TimerSTM32F0xx.o [1]
+MsgEntry::MsgEntry()    0x08007b53   0x18  Code  Gb  isocan.o [1]
+OBDProfile::OBDProfile()
+                        0x08002f45   0x10  Code  Gb  obdprofile.o [1]
+OBDProfile::closeProtocol()
+                        0x08003193    0xc  Code  Gb  obdprofile.o [1]
+OBDProfile::dumpBuffer()
+                        0x08002f6d    0xc  Code  Gb  obdprofile.o [1]
+OBDProfile::getProtocol() const
+                        0x08003187    0xc  Code  Gb  obdprofile.o [1]
+OBDProfile::getProtocolDescription() const
+                        0x08002f55    0xc  Code  Gb  obdprofile.o [1]
+OBDProfile::getProtocolDescriptionNum() const
+                        0x08002f61    0xc  Code  Gb  obdprofile.o [1]
+OBDProfile::instance()  0x08002f29   0x18  Code  Gb  obdprofile.o [1]
+OBDProfile::instance()::obdProfile
+                        0x2000063c    0x4  Data  Lc  obdprofile.o [1]
+OBDProfile::instance()::static guard for obdProfile
+                        0x20000638    0x1  Data  Lc  obdprofile.o [1]
+OBDProfile::kwDisplay()
+                        0x0800319f   0x12  Code  Gb  obdprofile.o [1]
+OBDProfile::monitor()   0x080031fd    0xc  Code  Gb  obdprofile.o [1]
+OBDProfile::monitor(util::string const &)
+                        0x08003209   0x62  Code  Gb  obdprofile.o [1]
+OBDProfile::onRequest(DataCollector const *)
+                        0x08003021   0x4c  Code  Gb  obdprofile.o [1]
+OBDProfile::onRequestImpl(DataCollector const *)
+                        0x0800306d   0xe2  Code  Gb  obdprofile.o [1]
+OBDProfile::sendHeartBeat()
+                        0x080031b1    0xc  Code  Gb  obdprofile.o [1]
+OBDProfile::sendLengthCheck(int)
+                        0x0800314f   0x38  Code  Gb  obdprofile.o [1]
+OBDProfile::setFilterAndMask()
+                        0x080031f1    0xc  Code  Gb  obdprofile.o [1]
+OBDProfile::setProtocol(int, bool)
+                        0x08002f79   0xa8  Code  Gb  obdprofile.o [1]
+OBDProfile::wiringCheck()
+                        0x080031bd   0x34  Code  Gb  obdprofile.o [1]
+OkMessage               0x08001dc0    0x4  Data  Lc  dispatcher.o [1]
+PeriodicTimer::PeriodicTimer(void (*)())
+                        0x080058c3   0x38  Code  Gb  TimerSTM32F0xx.o [1]
+PeriodicTimer::start(unsigned int)
+                        0x080058fb    0xa  Code  Gb  TimerSTM32F0xx.o [1]
+ProtocolAdapter::ProtocolAdapter()
+                        0x08003481   0x1a  Code  Gb  padapter.o [1]
+ProtocolAdapter::ProtocolAdapter() [subobject]
+                        0x08003479    0x8  Code  Gb  padapter.o [1]
+ProtocolAdapter::appendToHistory(Ecumsg const *)
+                        0x08003549   0x44  Code  Gb  padapter.o [1]
+ProtocolAdapter::clearHistory()
+                        0x08003535   0x14  Code  Gb  padapter.o [1]
+ProtocolAdapter::close()
+                        0x0800349b    0xa  Code  Gb  padapter.o [1]
+ProtocolAdapter::dumpBuffer()
+                        0x0800358d   0x30  Code  Gb  padapter.o [1]
+ProtocolAdapter::getAdapter(int)
+                        0x080034a5   0x90  Code  Gb  padapter.o [1]
+ProtocolAdapter::getAdapter(int)::autoAdapter
+                        0x200004f0   0x10  Data  Lc  padapter.o [1]
+ProtocolAdapter::getAdapter(int)::canAdapter
+                        0x20000528   0x1c  Data  Lc  padapter.o [1]
+ProtocolAdapter::getAdapter(int)::canExtAdapter
+                        0x20000544   0x1c  Data  Lc  padapter.o [1]
+ProtocolAdapter::getAdapter(int)::isoAdapter
+                        0x20000500   0x28  Data  Lc  padapter.o [1]
+ProtocolAdapter::getAdapter(int)::j1939Adapter
+                        0x20000560   0x20  Data  Lc  padapter.o [1]
+ProtocolAdapter::getAdapter(int)::static guard for autoAdapter
+                        0x200004e8    0x1  Data  Lc  padapter.o [1]
+ProtocolAdapter::getAdapter(int)::static guard for canAdapter
+                        0x200004ea    0x1  Data  Lc  padapter.o [1]
+ProtocolAdapter::getAdapter(int)::static guard for canExtAdapter
+                        0x200004eb    0x1  Data  Lc  padapter.o [1]
+ProtocolAdapter::getAdapter(int)::static guard for isoAdapter
+                        0x200004e9    0x1  Data  Lc  padapter.o [1]
+ProtocolAdapter::getAdapter(int)::static guard for j1939Adapter
+                        0x200004ec    0x1  Data  Lc  padapter.o [1]
+ProtocolAdapter::historyPos_
+                        0x20000650    0x4  Data  Gb  padapter.o [1]
+ProtocolAdapter::history_
+                        0x2000025c  0x100  Data  Gb  padapter.o [1]
+ProtocolAdapter::kwDisplay()
+                        0x08007c19    0x2  Code  Gb  vpw.o [1]
+ProtocolAdapter::monitor()
+                        0x08007c1d    0x2  Code  Gb  vpw.o [1]
+ProtocolAdapter::monitor(unsigned char const *, unsigned int, unsigned int)
+                        0x08007c1f    0x2  Code  Gb  vpw.o [1]
+ProtocolAdapter::open()
+                        0x0800335f    0x6  Code  Gb  padapter.o [1]
+ProtocolAdapter::sendHeartBeat()
+                        0x08007c17    0x2  Code  Gb  vpw.o [1]
+ProtocolAdapter::setFilterAndMask()
+                        0x08007c1b    0x2  Code  Gb  vpw.o [1]
+ProtocolAdapter::setProtocol(int)
+                        0x08003433    0x6  Code  Gb  vpw.o [1]
+RCC_APB1PeriphResetCmd  0x08003d81   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08003d69   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_GetClocksFreq       0x08003c1b  0x148  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_PCLKConfig          0x08003c0d    0xe  Code  Gb  stm32f0xx_rcc.o [1]
+Region$$Table$$Base     0x08007a50          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08007a78          --   Gb  - Linker created -
+ReverseBytes(unsigned char *, unsigned int)
+                        0x08002e35   0x1a  Code  Gb  functions.o [1]
+RxFifo                  0x20000368   0xc8  Data  Lc  CanDriverSTM32F0xx.o [1]
+RxFifoFlag              0x2000035c    0x4  Data  Lc  CanDriverSTM32F0xx.o [1]
+SHT$$INIT_ARRAY$$Base   0x08007be0          --   Gb  - Linker created -
+SHT$$INIT_ARRAY$$Limit  0x08007be4          --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Base
+                        0x08007be0          --   Gb  - Linker created -
+SHT$$PREINIT_ARRAY$$Limit
+                        0x08007be0          --   Gb  - Linker created -
+Spacer::Spacer(util::string &)
+                        0x08003bdf   0x16  Code  Gb  j1939.o [1]
+Spacer::Spacer(util::string &, bool)
+                        0x08003bc5    0x6  Code  Gb  functions.o [1]
+Spacer::space()         0x08003bcb   0x14  Code  Gb  j1939.o [1]
+SystemCoreClock         0x20000024    0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemCoreClockUpdate   0x08005725   0x4c  Code  Gb  system_stm32f0xx.o [1]
+SystemInit              0x08005651   0xd4  Code  Gb  system_stm32f0xx.o [1]
+TIM16_IRQHandler        0x080058a3   0x20  Code  Gb  TimerSTM32F0xx.o [1]
+TIM_TimeBaseInit        0x08006d31   0x58  Code  Gb  stm32f0xx_tim.o [1]
+TimeoutManager::TimeoutManager()
+                        0x08002e5d    0xc  Code  Gb  timeoutmgr.o [1]
+TimeoutManager::at0Timeout() const
+                        0x08002ed7   0x2e  Code  Gb  timeoutmgr.o [1]
+TimeoutManager::instance()
+                        0x08002e69   0x18  Code  Gb  timeoutmgr.o [1]
+TimeoutManager::instance()::manager
+                        0x200005f4    0xc  Data  Lc  timeoutmgr.o [1]
+TimeoutManager::instance()::static guard for manager
+                        0x200005f0    0x1  Data  Lc  timeoutmgr.o [1]
+TimeoutManager::multiplier() const
+                        0x08002f05   0x24  Code  Gb  timeoutmgr.o [1]
+TimeoutManager::p2Timeout() const
+                        0x08002eb1   0x26  Code  Gb  timeoutmgr.o [1]
+TimeoutManager::p2Timeout(unsigned int)
+                        0x08002e85   0x2c  Code  Gb  timeoutmgr.o [1]
+Timer::Timer(int)       0x080057dd   0x32  Code  Gb  TimerSTM32F0xx.o [1]
+Timer::configure()      0x080057b5   0x28  Code  Gb  TimerSTM32F0xx.o [1]
+Timer::instance(int)    0x0800583b   0x42  Code  Gb  TimerSTM32F0xx.o [1]
+Timer::instance(int)::static guard for timer0
+                        0x2000060c    0x1  Data  Lc  TimerSTM32F0xx.o [1]
+Timer::instance(int)::static guard for timer1
+                        0x2000060d    0x1  Data  Lc  TimerSTM32F0xx.o [1]
+Timer::instance(int)::timer0
+                        0x20000610    0x4  Data  Lc  TimerSTM32F0xx.o [1]
+Timer::instance(int)::timer1
+                        0x20000614    0x4  Data  Lc  TimerSTM32F0xx.o [1]
+Timer::isExpired() const
+                        0x08005821    0xa  Code  Gb  TimerSTM32F0xx.o [1]
+Timer::start(unsigned int)
+                        0x0800580f   0x12  Code  Gb  TimerSTM32F0xx.o [1]
+Timer::value() const    0x0800582b   0x10  Code  Gb  TimerSTM32F0xx.o [1]
+TimerPtr                0x2000002c    0xc  Data  Lc  TimerSTM32F0xx.o [1]
+USART2_IRQHandler       0x080055f9    0xc  Code  Gb  CmdUartSTM32F0xx.o [1]
+USART_ClearFlag         0x08006d25    0x4  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetFlagStatus     0x08006d17    0xe  Code  Gb  stm32f0xx_usart.o [1]
+USART_ITConfig          0x08006ced   0x2a  Code  Gb  stm32f0xx_usart.o [1]
+USART_Init              0x08006c25   0x9c  Code  Gb  stm32f0xx_usart.o [1]
+USART_ReceiveData       0x08006cd1    0x8  Code  Gb  stm32f0xx_usart.o [1]
+USART_SendData          0x08006cc9    0x8  Code  Gb  stm32f0xx_usart.o [1]
+Version                 0x08001b34    0x8  Data  Lc  dispatcher.o [1]
+Virtual function table for AutoAdapter
+                        0x080078f8   0x44  Data  Gb  autoadapter.o [1]
+Virtual function table for EcumsgISO14230
+                        0x08007a98   0x20  Data  Gb  ecumsg.o [1]
+Virtual function table for EcumsgISO9141
+                        0x08007a78   0x20  Data  Gb  ecumsg.o [1]
+Virtual function table for EcumsgPWM
+                        0x08007ad8   0x20  Data  Gb  ecumsg.o [1]
+Virtual function table for EcumsgVPW
+                        0x08007ab8   0x20  Data  Gb  ecumsg.o [1]
+Virtual function table for IsoCan11Adapter
+                        0x080077c0   0x50  Data  Gb  isocan11.o [1]
+Virtual function table for IsoCan29Adapter
+                        0x08007810   0x50  Data  Gb  isocan29.o [1]
+Virtual function table for IsoCanAdapter
+                        0x08007770   0x50  Data  Gb  isocan.o [1]
+Virtual function table for IsoSerialAdapter
+                        0x080078b0   0x48  Data  Gb  isoserial.o [1]
+Virtual function table for J1939Adapter
+                        0x08007860   0x50  Data  Gb  j1939.o [1]
+Virtual function table for ProtocolAdapter
+                        0x0800793c   0x44  Data  Gb  padapter.o [1]
+[local to CanDriverSTM32F0xx_cpp]::configureCANPins()
+                        0x08005ba5   0x22  Code  Lc  CanDriverSTM32F0xx.o [1]
+[local to SysutilitySTM32F0xx_cpp]::UIDToString(unsigned int *)
+                        0x080032e9   0x58  Code  Lc  SysutilitySTM32F0xx.o [1]
+[local to adapter_cpp]::AdapterRun()
+                        0x080037b1   0x60  Code  Lc  adapter.o [1]
+[local to adapter_cpp]::UserUartRcvHandler(unsigned char)
+                        0x08003735   0x6e  Code  Lc  adapter.o [1]
+[local to dispatcher_cpp]::DispatchATCmd(util::string const &, int, bool)
+                        0x08001eb9   0xb2  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnBufferDump(util::string const &, int)
+                        0x08001b3d    0xc  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnCanSetFilterAndMask(util::string const &, int)
+                        0x08001a35   0x10  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnCanSetFlowControlMode(util::string const &, int)
+                        0x080019d1   0x64  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnCanSetReceiveAddress(util::string const &, int)
+                        0x08001951   0x80  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnCanShowStatus(util::string const &, int)
+                        0x0800194f    0x2  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnGetSerialNum(util::string const &, int)
+                        0x08001b25    0x8  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnJ1939MonitorDM1(util::string const &, int)
+                        0x08001b7f    0xc  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnJ1939MonitorMP(util::string const &, int)
+                        0x08001b8b   0x10  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnKwDisplay(util::string const &, int)
+                        0x08001b73    0xc  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnProtocolClose(util::string const &, int)
+                        0x08001bb7    0xc  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnProtocolDescribe(util::string const &, int)
+                        0x08001b49    0xc  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnProtocolDescribeNum(util::string const &, int)
+                        0x08001b55    0xc  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnReadVoltage(util::string const &, int)
+                        0x08001bc5   0x40  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnReset(util::string const &, int)
+                        0x08001e9d    0xe  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnResetBytes(util::string const &, int)
+                        0x0800189f   0x1e  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSendReplyCopyright(util::string const &, int)
+                        0x08001a45   0x18  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSendReplyInterface(util::string const &, int)
+                        0x08001b61    0x6  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSendReplyVersion(util::string const &, int)
+                        0x08001b2d    0x8  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSet4HeaderBytes(util::string const &, int)
+                        0x08001cc5   0x8a  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetAT0(util::string const &, int)
+                        0x08001929    0xa  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetAT1(util::string const &, int)
+                        0x08001933    0x8  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetAT2(util::string const &, int)
+                        0x08001945    0xa  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetBytes(util::string const &, int)
+                        0x080018bd   0x68  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetDefault(util::string const &, int)
+                        0x08001e95    0x8  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetIsoBaudRate(util::string const &, int)
+                        0x08001b71    0x2  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetOK(util::string const &, int)
+                        0x08001925    0x4  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetProtocol(util::string const &, int)
+                        0x08001c11   0xac  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetRcvAddress(util::string const &, int)
+                        0x08001b9b   0x1c  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetTimeoutMult(util::string const &, int)
+                        0x08001d51   0x38  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetVPWSpeed(util::string const &, int)
+                        0x08001d89   0x34  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetValueFalse(util::string const &, int)
+                        0x08001859    0xa  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetValueInt(util::string const &, int)
+                        0x08001871   0x2e  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnSetValueTrue(util::string const &, int)
+                        0x0800184d    0xc  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::OnWiringTest(util::string const &, int)
+                        0x08001b19    0xc  Code  Lc  dispatcher.o [1]
+[local to dispatcher_cpp]::SetDefault()
+                        0x08001dc5   0xd0  Code  Lc  dispatcher.o [1]
+[local to functions_cpp]::reverse2bytes(unsigned int)
+                        0x08002d75   0x10  Code  Lc  functions.o [1]
+[local to functions_cpp]::reverse4bytes(unsigned int)
+                        0x08002d85   0x1c  Code  Lc  functions.o [1]
+_Encoding_8859_1_Mbrlen
+                        0x08007b93    0x2  Code  Gb  xencoding_8859_1.o [3]
+_LitobSmall             0x08004355   0xea  Code  Lc  xprintfsmall.o [3]
+_LocaleC_isalpha        0x08005f4f    0xc  Code  Gb  xlocale_c.o [3]
+_LocaleC_islower        0x08005f49    0x4  Code  Gb  xlocale_c.o [3]
+_LocaleC_ispunct        0x08005f65   0x22  Code  Gb  xlocale_c.o [3]
+_LocaleC_isspace        0x08005f87   0x14  Code  Gb  xlocale_c.o [3]
+_LocaleC_isupper        0x08005f4d    0x2  Code  Gb  xlocale_c.o [3]
+_LocaleC_tolower        0x08005f9b    0xc  Code  Gb  xlocale_c.o [3]
+_LocaleC_toupper        0x08005fa7    0xc  Code  Gb  xlocale_c.o [3]
+_PrintfSmall            0x08003f09  0x29c  Code  Gb  xprintfsmall.o [3]
+_PutcharsSmall          0x08004445   0x32  Code  Lc  xprintfsmall.o [3]
+_PutfldSmall            0x08004215  0x140  Code  Lc  xprintfsmall.o [3]
+_SProut                 0x080017a7    0xa  Code  Gb  xsprout.o [3]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20001fff         Data  Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000         Data  Gb  command line/config [2]
+__aeabi_atexit          0x08003727    0xe  Code  Gb  cxxabi.o [4]
+__aeabi_idiv0           0x08003f05         Code  Gb  IntDivZer.o [5]
+__aeabi_llsl            0x080038b9         Code  Gb  I64Shl.o [5]
+__aeabi_llsr            0x080038dd         Code  Gb  U64Shr.o [5]
+__aeabi_memclr          0x080038b1         Code  Gb  ABImemset.o [5]
+__aeabi_memclr4         0x080038b5         Code  Gb  ABImemset.o [5]
+__aeabi_memclr8         0x080038b5         Code  Gb  ABImemset.o [5]
+__aeabi_memcpy          0x080017b1         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x080017d9         Code  Wk  ABImemcpy.o [5]
+__aeabi_memmove         0x080070a1         Code  Gb  ABImemmove.o [5]
+__aeabi_memmove4        0x080070a1         Code  Gb  ABImemmove.o [5]
+__aeabi_memmove8        0x080070a1         Code  Gb  ABImemmove.o [5]
+__aeabi_memset          0x08003861         Code  Gb  ABImemset.o [5]
+__aeabi_vec_ctor_nocookie_nodtor
+                        0x08003701   0x26  Code  Gb  cxxabi.o [4]
+__call_ctors            0x08005379   0x18  Code  Gb  cppinit.o [3]
+__call_dtors            0x080053cd    0xc  Code  Gb  cppinit.o [3]
+__call_dtors0           0x080053d9   0x38  Code  Gb  cppinit.o [3]
+__cexit_call_dtors      0x08007b47         Code  Gb  cexit.o [5]
+__cmain                 0x08007b19         Code  Gb  cmain.o [5]
+__cstart_call_dtors     0x08007c24         Data  Gb  cstart_call_dtors.o [5]
+__cxa_atexit            0x08005391   0x3c  Code  Gb  cppinit.o [3]
+__cxa_pure_virtual      0x08007bbf    0x8  Code  Gb  xpurevirtual.o [3]
+__data_GetMemChunk      0x0800180d   0x2c  Code  Gb  xgetmemchunk.o [3]
+__data_GetMemChunk::start
+                        0x20000664    0x4  Data  Lc  xgetmemchunk.o [3]
+__dso_handle            0x20000658    0x4  Data  Gb  cppinit.o [3]
+__exit                  0x08001839   0x14  Code  Gb  exit.o [6]
+__iar_Fail_s            0x08006039   0x22  Code  Gb  xfail_s.o [3]
+__iar_Memset4_word      0x08003881         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x0800386d         Code  Gb  ABImemset.o [5]
+__iar_Stoulx            0x08003909  0x13c  Code  Gb  iar_Stoulx.o [3]
+__iar_copy_init3        0x080079f9   0x30  Code  Gb  copy_init3.o [5]
+__iar_cstart_call_ctors
+                        0x08007af9   0x20  Code  Gb  cmain_call_ctors.o [5]
+__iar_data_init3        0x08007a29   0x28  Code  Gb  data_init.o [5]
+__iar_debug_exceptions  0x08007c20    0x1  Data  Gb  unwind_debug.o [6]
+__iar_dlfree            0x080011e9  0x5ac  Code  Gb  dlmalloc.o [3]
+__iar_dlmalloc          0x08000eed  0x2f6  Code  Gb  dlmalloc.o [3]
+__iar_globLocale        0x2000003c   0x48  Data  Lc  xlocale_c.o [3]
+__iar_global_Locale     0x08005fb3    0x4  Code  Gb  xlocale_c.o [3]
+__iar_program_start     0x08007b87         Code  Gb  cstartup_M.o [5]
+__iar_small_uidiv       0x080033fd         Code  Gb  I32DivMod.o [5]
+__iar_small_uidivmod    0x080033fd         Code  Gb  I32DivMod.o [5]
+__iar_systems$$module {Abs}
+                        0x00000001         Data  Gb  command line/config [2]
+__iar_tls$$INIT_ARRAY$$Base
+                        0x08007be4          --   Gb  - Linker created -
+__iar_tls$$INIT_ARRAY$$Limit
+                        0x08007be4          --   Gb  - Linker created -
+__iar_zero_init3        0x080079bd   0x3c  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08007b37    0x4  Code  Gb  low_level_init.o [3]
+__sti__routine          0x080057a1   0x14  Code  Lc  TimerSTM32F0xx.o [1]
+__vector_table          0x08000000         Data  Gb  startup_stm32f091.o [1]
+_call_main              0x08007b25         Code  Gb  cmain.o [5]
+_exit                   0x08007b45         Code  Gb  cexit.o [5]
+_gLocale_mblen          0x08006013    0xa  Code  Gb  xlocale_c.o [3]
+_gLocale_mblenInt       0x08005fdf   0x34  Code  Gb  xlocale_c.o [3]
+_gm_                    0x20000084  0x1d8  Data  Lc  dlmalloc.o [3]
+_main                   0x08007b33         Code  Gb  cmain.o [5]
+abort                   0x0800179d    0xa  Code  Gb  abort.o [3]
+add_segment             0x080004df  0x1f6  Code  Lc  dlmalloc.o [3]
+collector               0x2000061c    0x4  Data  Lc  adapter.o [1]
+digits                  0x08003a58   0x28  Data  Lc  iar_Stoulx.o [3]
+dispatchTbl             0x08001f8c  0x620  Data  Lc  dispatcher.o [1]
+exit                    0x08007b3b    0x8  Code  Gb  exit.o [3]
+free                    0x08007009    0x8  Code  Gb  heaptramp0.o [3]
+glblUart                0x20000618    0x4  Data  Lc  adapter.o [1]
+init_mparams            0x080000dd   0x2a  Code  Lc  dlmalloc.o [3]
+init_top                0x08000107   0x38  Code  Lc  dlmalloc.o [3]
+irqCallback             0x20000038    0x4  Data  Lc  TimerSTM32F0xx.o [1]
+isalpha                 0x08005605   0x12  Code  Gb  isalpha.o [3]
+ispunct                 0x08005617   0x12  Code  Gb  ispunct.o [3]
+isspace                 0x08005efd   0x12  Code  Gb  isspace.o [3]
+main                    0x0800381d   0x32  Code  Gb  adapter.o [1]
+mcount                  0x2000064c    0x4  Data  Lc  lstring.o [1]
+memchr                  0x08005f21   0x18  Code  Gb  memchr.o [5]
+mparams                 0x200005d8   0x18  Data  Lc  dlmalloc.o [3]
+ndigs                   0x08003a80   0x28  Data  Lc  iar_Stoulx.o [3]
+next_abi_dtor_rec       0x20000654    0x4  Data  Lc  cppinit.o [3]
+operator delete (void *)
+                        0x08005f39    0xe  Code  Gb  delop_0.o [4]
+operator delete[] (void *)
+                        0x08003b25    0x8  Code  Gb  delaop_0.o [4]
+operator new (unsigned int)
+                        0x08005629   0x28  Code  Gb  newop_0.o [4]
+operator new[] (unsigned int)
+                        0x08003aa9    0x8  Code  Gb  newaop_0.o [4]
+prepend_alloc           0x0800014d  0x392  Code  Lc  dlmalloc.o [3]
+sec_hand                0x20000660    0x4  Data  Lc  xfail_s.o [3]
+segment_holding         0x080000bd   0x20  Code  Lc  dlmalloc.o [3]
+sprintf                 0x08003439   0x40  Code  Gb  sprintf.o [3]
+std::_NomemoryNothrow()
+                        0x08006d29    0x8  Code  Gb  nomemory.o [4]
+std::_Unique_ptr_base<Ecumsg, std::default_delete<Ecumsg>>::_Unique_ptr_base<Ecumsg *>(Ecumsg *)
+                        0x080070c7    0x4  Code  Gb  vpw.o [1]
+std::__iar_New_hand     0x2000065c    0x4  Data  Gb  new.o [4]
+std::unique_ptr<Ecumsg, std::default_delete<Ecumsg>>::unique_ptr(Ecumsg *)
+                        0x08006387    0xc  Code  Gb  vpw.o [1]
+std::unique_ptr<Ecumsg, std::default_delete<Ecumsg>>::~unique_ptr()
+                        0x08006393   0x14  Code  Gb  vpw.o [1]
+strchr                  0x08006021    0x2  Code  Gb  strchr.o [5]
+strcmp                  0x08003b3d         Code  Gb  strcmp.o [5]
+strcpy                  0x08003ab1         Code  Gb  strcpy.o [5]
+strlen                  0x0800384f   0x10  Code  Gb  strlen.o [5]
+strtoul                 0x08003a51    0x6  Code  Gb  iar_Stoulx.o [3]
+sys_alloc               0x080006dd  0x174  Code  Lc  dlmalloc.o [3]
+sys_trim                0x08000851   0x6a  Code  Lc  dlmalloc.o [3]
+tickDiv                 0x20000028    0x2  Data  Lc  TimerSTM32F0xx.o [1]
+tmalloc_large           0x080008cd  0x3e0  Code  Lc  dlmalloc.o [3]
+tmalloc_small           0x08000cb1  0x23c  Code  Lc  dlmalloc.o [3]
+to_ascii(unsigned char const *, unsigned int, util::string &)
+                        0x08002d1b   0x5a  Code  Gb  functions.o [1]
+to_bytes(util::string const &, unsigned char *)
+                        0x08002cbf   0x5c  Code  Gb  functions.o [1]
+tolower                 0x08005f0f   0x12  Code  Gb  tolower.o [3]
+toupper                 0x08005365   0x12  Code  Gb  toupper.o [3]
+unsigned int const & util::max<unsigned int>(unsigned int const &, unsigned int const &)
+                        0x08003bf5    0xc  Code  Gb  timeoutmgr.o [1]
+unsigned int const & util::min<unsigned int>(unsigned int const &, unsigned int const &)
+                        0x08003c01    0xc  Code  Gb  timeoutmgr.o [1]
+util::operator +(char const *, util::string const &)
+                        0x08002aef   0x24  Code  Gb  lstring.o [1]
+util::operator ==(util::string const &, char const *)
+                        0x08002add    0x4  Code  Gb  lstring.o [1]
+util::stoul(util::string const &, unsigned int *, int)
+                        0x08002851   0x14  Code  Gb  algorithms.o [1]
+util::string::__init(unsigned int)
+                        0x08002891   0x24  Code  Gb  lstring.o [1]
+util::string::__move_assign(util::string&)
+                        0x080028b5   0x16  Code  Gb  lstring.o [1]
+util::string::append(char const *)
+                        0x0800299f   0x30  Code  Gb  lstring.o [1]
+util::string::append(char const *, unsigned int)
+                        0x080029cf   0x34  Code  Gb  lstring.o [1]
+util::string::clear()   0x08002ad3    0xa  Code  Gb  lstring.o [1]
+util::string::operator +=(char const *)
+                        0x08002a0f    0x8  Code  Gb  lstring.o [1]
+util::string::operator +=(char)
+                        0x08002a17   0x26  Code  Gb  lstring.o [1]
+util::string::operator +=(const util::string&)
+                        0x08002a03    0xc  Code  Gb  lstring.o [1]
+util::string::operator =(char const *)
+                        0x08002aaf   0x24  Code  Gb  lstring.o [1]
+util::string::operator =(const util::string&)
+                        0x08002a6d   0x26  Code  Gb  lstring.o [1]
+util::string::operator =(util::string&&)
+                        0x08002a93   0x1c  Code  Gb  lstring.o [1]
+util::string::reserve(unsigned int)
+                        0x08002977   0x28  Code  Gb  lstring.o [1]
+util::string::resize(unsigned int)
+                        0x08002931   0x12  Code  Gb  lstring.o [1]
+util::string::resize(unsigned int, char)
+                        0x08002943   0x34  Code  Gb  lstring.o [1]
+util::string::string(char const *)
+                        0x080028df   0x1a  Code  Gb  lstring.o [1]
+util::string::string(const util::string&)
+                        0x080028f9   0x10  Code  Gb  lstring.o [1]
+util::string::string(unsigned int)
+                        0x080028cb   0x14  Code  Gb  lstring.o [1]
+util::string::substr(unsigned int, unsigned int) const
+                        0x08002a3d   0x30  Code  Gb  lstring.o [1]
+util::string::~string()
+                        0x08002913   0x18  Code  Gb  lstring.o [1]
+util::to_ascii(uint8_t)::dispthTable
+                        0x08002874   0x10  Data  Lc  algorithms.o [1]
+util::to_ascii(unsigned char)
+                        0x08002865    0xe  Code  Gb  algorithms.o [1]
+util::to_int(unsigned char, unsigned char, unsigned char)
+                        0x08006a77    0xa  Code  Gb  j1939.o [1]
+
+
+[1] = D:\Altium PCB board\Project\Sajjad Uni\diagnostic\test\EWARM\STM32F051\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = dlpp6M_tl_fc.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  30 539 bytes of readonly  code memory
+   1 241 bytes of readonly  data memory
+   3 622 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
